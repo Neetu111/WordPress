@@ -3,7 +3,7 @@
 	if (have_posts()):
 		while(have_posts()): the_post(); ?>
 		<article class="post page">
-			<div class="colomn-container clearfix">
+			<div class="column-container clearfix">
 				<div class="title-column">
 					<h2><?php the_title(); ?></h2>
 				</div>

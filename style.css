@@ -100,6 +100,7 @@ div.text-column{
 	width: 70%;
 	float: right;
 }
+
 /*Info Box Styles*/
 div.info-box{
 	width: 30%;
@@ -130,7 +131,7 @@ div.info-box p{
 	margin-right: 20px;
 }
 .children-links .parent-link{
-	float: left;
+	float: none;
 	margin-right: 20px;
 	padding-right: 20px;
 	padding-right: 20px;
@@ -180,6 +181,7 @@ img{
 article.post{
 	border-bottom: 1px dotted #DDD;
 	margin-bottom: 20px;
+	text-align: left;
 }
 article.post:last-of-type{
 	border-bottom: none;
@@ -220,7 +222,7 @@ div.hd-search #s{
 	padding: 5px 0;
 }
 
-/*Link post format example*/
+/*Link post format style*/
 article.post-link{
 	padding: 0;
 	background-color: #E0EBFF;
@@ -228,4 +230,30 @@ article.post-link{
 article.post-link a{
 	display: block;
 	padding: 20px;
+}
+/*Post format gallery style*/
+article.post-gallery{
+	background-color: #222;
+	color: #FFF;
+	padding: 20px;
+}
+article.post-gallery img{
+	border: none!important;
+}
+article.post-gallery h2{
+	text-align: center;
+}
+
+
+/*Posts Columns*/
+.home-columns{
+	padding-top: 30px;
+}
+.one-half{
+	width: 45%;
+	float: left;
+	margin-right: 10%;
+}
+.last{
+	margin-right: 0;
 }
